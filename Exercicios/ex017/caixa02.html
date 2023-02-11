@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping tags</title>
+    <style>
+        body{
+            background-color: darkgrey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 30px;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.256);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 1px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: aquamarine;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.256);
+        }
+        a:hover{
+            color: teal;
+            text-decoration: underline;
+        }
+        a:active{
+            color: brown;
+            background-color: rgba(255, 0, 0, 0.292);
+        }
+        a::before{
+            content: '⇛';
+        }
+        a::after{
+            content: '⇚';
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <header>
+        <h2>Seção de links</h2>
+<nav>
+    <a href="">link</a><br>
+    <a href="">link</a><br>
+    <a href="">link</a><br>
+    <a href="">link</a>
+</nav>
+    </header>
+    <main>
+        <article>
+            <h2>Noticias</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda minima numquam quisquam eligendi asperiores! Rem autem, earum eos ipsam inventore perspiciatis laudantium voluptatum quae vero quia distinctio iste laboriosam quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id et nesciunt assumenda voluptatem vero nisi suscipit quod corrupti laboriosam, deleniti iure consequuntur esse, recusandae dolorum possimus placeat, consectetur aperiam!
+            </p>
+            <aside>
+                Artigo escrito por José da Silva
+            </aside>
+        </article>
+    </main>
+    <footer>
+        Desenvolvido por Ruan
+    </footer>
+</body>
+</html>
